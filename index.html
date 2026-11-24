@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Astgasse – Willkommen</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #f4f6fa;
+            color: #17243a;
+        }
+
+        header {
+            background: #142b4a;
+            color: white;
+            padding: 22px 8%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+
+        header h1 {
+            font-size: 26px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-left: 20px;
+        }
+
+        .hero {
+            background: linear-gradient(135deg, #142b4a, #315f91);
+            color: white;
+            text-align: center;
+            padding: 110px 20px;
+        }
+
+        .hero h2 {
+            font-size: 48px;
+            margin-bottom: 20px;
+        }
+
+        .hero p {
+            font-size: 19px;
+        }
+
+        .content {
+            padding: 55px 8%;
+        }
+
+        .cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 22px;
+            margin-top: 25px;
+        }
+
+        .card {
+            background: white;
+            padding: 28px;
+            border-radius: 12px;
+            box-shadow: 0 3px 15px #00000012;
+        }
+
+        .card h3 {
+            margin-bottom: 12px;
+            color: #24588b;
+        }
+
+        footer {
+            background: #142b4a;
+            color: white;
+            text-align: center;
+            padding: 25px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>ASTGASSE</h1>
+    <nav>
+        <a href="#schule">Schule</a>
+        <a href="#aktuelles">Aktuelles</a>
+        <a href="#kontakt">Kontakt</a>
+    </nav>
+</header>
+
+<section class="hero">
+    <h2>Willkommen in der Astgasse</h2>
+    <p>Ein Ort zum Lernen, Entdecken und Wachsen.</p>
+</section>
+
+<section class="content" id="schule">
+    <h2>Unsere Schule</h2>
+    <p>Willkommen auf der alternativen Website der Astgasse in Wien!</p>
+
+    <div class="cards">
+        <div class="card">
+            <h3>Unsere Schule</h3>
+            <p>Entdecke unsere Schule und ihre Gemeinschaft.</p>
+        </div>
+
+        <div class="card">
+            <h3>Aktuelles</h3>
+            <p>Hier findest du Neuigkeiten und Ankündigungen.</p>
+        </div>
+
+        <div class="card">
+            <h3>Termine</h3>
+            <p>Alle wichtigen Termine auf einen Blick.</p>
+        </div>
+    </div>
+</section>
+
+<footer id="kontakt">
+    <p>Astgasse Wien | Unabhängiges Fanprojekt</p>
+</footer>
+
+</body>
+</html>
